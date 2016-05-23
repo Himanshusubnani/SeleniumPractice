@@ -35,6 +35,7 @@ public class BrowserManipulation {
 		browser.navigate().to("https://in.yahoo.com/");
 		browser.navigate().back();
 		browser.navigate().refresh();
+		browser.close();
 		
 	}
 
